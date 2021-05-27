@@ -1,0 +1,22 @@
+{
+  "name": "szavazo-oldal-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsolyomi/Szavazo-oldal-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsolyomi/Szavazo-oldal-repo/issues"
+  },
+  "homepage": "https://github.com/tsolyomi/Szavazo-oldal-repo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
