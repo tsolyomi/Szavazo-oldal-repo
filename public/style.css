@@ -1,9 +1,39 @@
+*{
+    color: black;
+}
+
+
 html {
-    background-color: black;
+    background-color:grey;
 }
 
 h1{
-    color: white;
+    color: black;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+#kerdes-box{
+    margin-top: 6vh;
+    padding-bottom: 2vh;	
+
+    border: 1.5px black solid;
+    border-radius: 3vh;
+    width: 50%;
+    margin: auto;
+    
+    text-align: center;
+    
+}
+
+#kerdes{
+    font-size: 25px;  
+}
+
+label{
+    font-size: 20px;
+}
+
+
+
+
