@@ -14,12 +14,15 @@ h1{
 }
 
 #kerdes-box{
+    background-color: maroon;
+    
+
     margin-top: 6vh;
     padding-bottom: 2vh;	
 
     border: 1.5px black solid;
     border-radius: 3vh;
-    width: 50%;
+    width: 40%;
     margin: auto;
     
     text-align: center;
@@ -33,6 +36,21 @@ h1{
 label{
     font-size: 20px;
 }
+
+#Elkuldgomb{
+    margin-top: 2vh;
+    font-size: 18px;
+    border: 1px black solid;
+    border-radius: 5vh;
+    
+}
+
+#Elkuldgomb:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
 
 
 

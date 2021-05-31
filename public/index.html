@@ -10,7 +10,7 @@
 <body>
     <h1>SZAVAZÓ OLDAL</h1>
 
-    <div id="kerdes-box"> 
+    <form action="/szavazas" method= "post" id="kerdes-box"> 
         <p id="kerdes">Vékony vagy vastag tésztás pizzát szereted?</p>
         
         <input type="radio" name="teszta" id="rg1" value="vekony">
@@ -21,8 +21,9 @@
 
         <input type="radio" name="teszta" id="rg3" value="szupervastag">
         <label for="rg3">Szupervastag</label>
-        
-    </div>
+        <br>
+        <input type="submit" id="Elkuldgomb" value="Elküld">
+    </form>
 
 </body>
 </html>
