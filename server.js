@@ -32,7 +32,7 @@ app.post('/szavazas',function(request, response){
 
     model.findOne({ nev : request.body.teszta}, function(err,doc){
         if(doc){
-            console.log(request.body.teszta + 'már létezik');
+            //console.log(request.body.teszta + 'már létezik');
             //változtatjuk
             doc.szavazatok++;
             doc.save();
@@ -43,14 +43,15 @@ app.post('/szavazas',function(request, response){
             }).save();
         }
     });
-
-
-    
-
-    
-
-    response.redirect('/');
+    response.redirect('/eredmeny.html');
 });
+
+app.get('/eredmenyek', function(request,response){
+    model.find({}, function(error,dokumentumok){
+        response.send(JSON.stringify(dokumentumok));
+    });
+});
+
 
 //--------------------
 app.listen(9000);
